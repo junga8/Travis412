@@ -19,20 +19,20 @@ public class SimpleCalculatorTest {
 		assertEquals(calc.minus(5, 3), 2);
 
 	}
-//	@Test
-//	public void testmultiply(){
-//
-//		SimpleCalculator calc = new SimpleCalculator();
-//		assertEquals(calc.multiply(5, 3), 15);
-//
-//	}
-//	@Test
-//	public void testdivide(){
-//
-//		SimpleCalculator calc = new SimpleCalculator();
-//		assertEquals(calc.divide(4, 2), 2);
-//		//assertEquals(calc.divide(4, 0),"Error");
-//
-//	}
+	@Test
+	public void testmultiply(){
+
+		SimpleCalculator calc = new SimpleCalculator();
+		assertEquals(calc.multiply(5, 3), 15);
+
+	}
+	@Test
+	public void testdivide(){
+
+		SimpleCalculator calc = new SimpleCalculator();
+		assertEquals(calc.divide(4, 2), 2);
+		//assertEquals(calc.divide(4, 0),"Error");
+
+	}
 
 }
